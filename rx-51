@@ -506,12 +506,12 @@ xkb_symbols "ru_custom" {
     key <AD08>	{ [	i,		I,		8,		F8		] };
     key <AD09>	{ [	o,		O,		9,		F9		] };
     key <AD10>	{ [	p,		P,		0,		F10		] };
-    key <AB08>	{ [	question,		semicolon,	equal,		F11		] };
+    key <AB08>	{ [	equal,		plus,	bar,		F11		] };
     key <BKSP>	{ [	BackSpace,	Escape,            KP_Delete,      F12             ] };
 
     // 2. row
     key <AC01>	{ [	a,		A,		asterisk,	period  	] };
-    key <AC02>	{ [	s,		S,		plus,		plus		] };
+    key <AC02>	{ [	s,		S,		question,		plus		] };
     key <AC03>	{ [	d,		D,		numbersign,	numbersign	] };
     key <AC04>	{ [	f,		F,		minus,		minus		] };
     key <AC05>	{ [	g,		G,		underscore,	underscore	] };
@@ -519,7 +519,7 @@ xkb_symbols "ru_custom" {
     key <AC07>	{ [	j,		J,		parenright,	braceleft	] };
     key <AC08>	{ [	k,		K,		ampersand,	braceright	] };
     key <AC09>	{ [	l,		L,		exclam,		exclam		] };
-    key <AB09>	{ [	period,		comma,		colon,	bar             ] };
+    key <AB09>	{ [	period,		comma,		colon,	semicolon] };
     key <RTRN>	{ [	KP_Enter,       KP_Enter,	Tab,         Menu            ] };
 
     // 3. row
